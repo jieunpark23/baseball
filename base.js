@@ -36,7 +36,8 @@ function Play() {
       console.log(`3S\n${cnt}번만에 맞히셨습니다.\n게임을 종료합니다.`);
       rl.close();
     } else {
-      console.log(`${cnt}번째 시도 : ${B}B${S}S`);
+      console.log(`${cnt}번째 시도 : ${n}`);
+      console.log(`${B}B${S}S`);
       cnt++;
     }
   });
